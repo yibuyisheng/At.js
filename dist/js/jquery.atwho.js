@@ -1147,7 +1147,7 @@ Api = {
     return null;
   },
   run: function() {
-    return this.dispatch();
+    return this.dispatch({});
   },
   destroy: function() {
     this.shutdown();
